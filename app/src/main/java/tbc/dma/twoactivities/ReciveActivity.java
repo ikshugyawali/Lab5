@@ -10,7 +10,9 @@ import android.widget.TextView;
 
 public class ReciveActivity extends AppCompatActivity {
     public static final String EXTRA_REPLY = "Reply";
+
     private EditText mReply;
+
     private static final String LOG_TAG = ReciveActivity.class.getSimpleName();
 
     @Override
@@ -19,6 +21,7 @@ public class ReciveActivity extends AppCompatActivity {
         super.onStart();
         Log.d(LOG_TAG, "onStart");
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +35,6 @@ public class ReciveActivity extends AppCompatActivity {
 
         Intent i=getIntent();
         String message = i.getStringExtra(MainActivity.EXTRA_MESSAGE);
-
 
         TextView textView = findViewById(R.id.textView3);
         textView.setText(message);
@@ -48,35 +50,33 @@ public class ReciveActivity extends AppCompatActivity {
 
     }
 
-
     @Override
     protected void onPause() {
-
         super.onPause();
         Log.d(LOG_TAG, "onPause");
     }
+
     @Override
     protected void onRestart() {
-
         super.onRestart();
         Log.d(LOG_TAG, "onRestart");
     }
+
     @Override
     protected void onResume() {
-
         super.onResume();
-        Log.d(LOG_TAG,"Resume");
+        Log.d(LOG_TAG, "onResume");
     }
+
     @Override
     protected void onStop() {
-
         super.onStop();
-        Log.d(LOG_TAG,"onStop");
+        Log.d(LOG_TAG, "onStop");
     }
+
     @Override
     protected void onDestroy() {
-
         super.onDestroy();
-        Log.d(LOG_TAG,"onDestroy");
+        Log.d(LOG_TAG, "onDestroy");
     }
 }
