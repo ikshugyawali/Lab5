@@ -16,4 +16,6 @@
     <string name="phone">Phone</string>
     <string name="mango">Mango</string>
     <string name="orange">Orange</string>
+    <string name="count">Count</string>
+    <string name="_0">0</string>
 </resources>

@@ -122,4 +122,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, ShoppingList.class);
                 startActivity(i);
     }
+
+    public void launchHomework(View view) {
+        Intent i = new Intent(MainActivity.this, Homework.class);
+        startActivity(i);
+    }
 }
