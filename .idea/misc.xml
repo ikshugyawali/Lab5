@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Activity lifecycle and state/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Activity lifecycle and state/app/src/main/res/layout/activity_add_item.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Activity lifecycle and state/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Activity lifecycle and state/app/src/main/res/layout/activity_recive.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Activity lifecycle and state/app/src/main/res/layout/activity_shopping_list.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoActivities/app/src/main/res/layout/activity_main.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoActivities/app/src/main/res/layout/activity_recive.xml" value="0.22146739130434784" />
       </map>

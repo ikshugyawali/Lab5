@@ -6,4 +6,14 @@
     <string name="button_second">Reply</string>
     <string name="editText_second">Enter Your Reply Here</string>
     <string name="text_header_reply">Reply Received</string>
+    <string name="add_item">Add Item</string>
+    <string name="cheese">Cheese</string>
+    <string name="egg">Egg</string>
+    <string name="rice">Rice</string>
+    <string name="apple">Apple</string>
+    <string name="pasta">Pasta</string>
+    <string name="mushroom">Mushroom</string>
+    <string name="phone">Phone</string>
+    <string name="mango">Mango</string>
+    <string name="orange">Orange</string>
 </resources>

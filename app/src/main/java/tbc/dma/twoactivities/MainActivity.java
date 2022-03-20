@@ -117,4 +117,9 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(LOG_TAG, "onDestroy");
     }
+
+    public void launchShopping(View view) {
+        Intent i = new Intent(MainActivity.this, ShoppingList.class);
+                startActivity(i);
+    }
 }
